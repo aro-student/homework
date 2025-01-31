@@ -1,0 +1,30 @@
+.block {
+    font-family: "Open Sans", "Arial", serif;
+    font-size: 20px;
+    line-height: 30px;
+    height: 200px;
+    text-align: right;
+    text-decoration: line-through;
+
+}
+
+.block-2 {
+    font-family: "Open Sans", "Arial", serif;
+    word-spacing: 30px;
+    height: 200px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: double;
+    letter-spacing: 5px;
+}
+
+.block-3 {
+    font-family: "Open Sans", "Arial", serif;
+    text-align: left;
+    height: 700px;
+    width: 400px;
+    word-spacing: 1px;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+}
