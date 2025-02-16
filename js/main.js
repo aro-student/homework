@@ -17,27 +17,27 @@ myName()
 
 const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
 
-function getNumber() {
+function getNumber(arr) {
     for (let i = 0; i < array.length; i++) {
-        if (array[i] > 10) {
-            console.log(`The number is ${array[i]}`);
+        if (arr[i] > 10) {
+            console.log(`The number is ${arr[i]}`);
         }
     }
 }
 
-getNumber();
+getNumber(array);
 
 /* ================================================ */
 
 function calc(num1, num2, operator) {
     if (operator === "minus") {
-        console.log(num1 - num2)
+        return (num1 - num2)
     } else if (operator === "plus") {
-        console.log(num1 + num2)
+        return (num1 + num2)
     } else if (operator === "divide") {
-        console.log(num1 / num2)
+        return (num1 / num2)
     } else if (operator === "multiply") {
-        console.log(num1 * num2)
+        return (num1 * num2)
     }
 }
 calc(5, 5, "multiply")
